@@ -68,7 +68,33 @@ public class Main {
 
         */
 
+        /* --------------------------------- 2.2 ITERATIVE CONSTRUCTS -----------------------------*/
+
         /*------------------------------------ TASK 3 -------------------------------------------- */
+        /*
+        * INSTRUCTIONS: WRITE A JAVA PROGRAM USING A FOR LOOP TO PRINT THE FIRST 10 NUMBERS OF THE
+        * FIBONNACI SEQUENCE
+        * */
+
+        // FIBONACCI always start with 0,1 and must continue by adding the previous 2 elements:
+        // 0,1,1,2,3,5,8,13
+
+       // Initialize the value of the fibonacci number to go up. In this case, we want the first 10 numbers of fibonacci sequence.
+        int n = 10;
+        // We know the first 2 numbers of the fibonacci sequence is 0, 1
+        int a = 0;
+        int b = 1;
+
+        // start the loop
+        for (int i = 0; i < n ; i++) {
+            System.out.print(a + " "); // Prints the current number and leaves a space so its readable in the command line
+            int next = a + b; // adding 0 and 1 together now this value is 1.
+            a = b; // a is now equal to 1 which also represents the second value
+            b = next; // now b is 1.
+        }
+
+
+
 
 
 
