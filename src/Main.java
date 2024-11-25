@@ -72,15 +72,15 @@ public class Main {
 
         /*------------------------------------ TASK 3 -------------------------------------------- */
         /*
-        * INSTRUCTIONS: WRITE A JAVA PROGRAM USING A FOR LOOP TO PRINT THE FIRST 10 NUMBERS OF THE
-        * FIBONNACI SEQUENCE
-        * */
+         * INSTRUCTIONS: WRITE A JAVA PROGRAM USING A FOR LOOP TO PRINT THE FIRST 10 NUMBERS OF THE
+         * FIBONNACI SEQUENCE
+         * */
 
         // FIBONACCI always start with 0,1 and must continue by adding the previous 2 elements:
         // 0,1,1,2,3,5,8,13
 
-       // Initialize the value of the fibonacci number to go up. In this case, we want the first 10 numbers of fibonacci sequence.
-        int n = 10;
+        // Initialize the value of the fibonacci number to go up. In this case, we want the first 10 numbers of fibonacci sequence.
+       /* int n = 10;
         // We know the first 2 numbers of the fibonacci sequence is 0, 1
         int a = 0;
         int b = 1;
@@ -91,12 +91,69 @@ public class Main {
             int next = a + b; // adding 0 and 1 together now this value is 1.
             a = b; // a is now equal to 1 which also represents the second value
             b = next; // now b is 1.
+        } */
+
+        /* --------------------------- TASK 4 --------------------------------*/
+        /*
+         * Write a Java program using a while loop to print numbers from 1 to 100.
+         * */
+
+       /* int limitNumber = 0;
+
+        while(limitNumber < 100){
+            limitNumber++;
+            System.out.print(limitNumber + " ");
+        } */
+
+        /* ---------------------- TASK 5 ---------------------------------*/
+
+        /*
+         * INSTRUCTIONS: 3. Write a Java program using a do-while loop to prompt the user to enter a positive number. The program should keep asking until a positive number is entered.
+         *  */
+
+       /*
+
+       Scanner input = new Scanner(System.in);
+        System.out.println("Write down a positive number: ");
+        int number = 0;
+
+        do {
+            number = input.nextInt();
+
+            if (number >= 0) {
+                System.out.println("Well done! This is a positive number!");
+            } else {
+                System.out.println("No this is a negative number! Please try again!");
+                System.out.print("Write down a positive number: ");
+            }
+
+        } while (number < 0);
+           */
+/* ----------------------------- JUMP STATEMENT EXCERCISES ------------------------*/
+
+                  /*-------------------- TASK 6 ---------------------*/
+        /*
+        * INSTRUCTIONS: 1. Write a Java program using a break statement to exit a loop when a specified value is found in an array.
+        * */
+
+        int[] numbers = {6,3,7,9,14,21,25};
+        int firstMultipleOf5 = 0;
+
+        for(int i = 0; i < numbers.length; i++) {
+            if(numbers[i] % 5 == 0){
+                firstMultipleOf5 = numbers[i];
+                break;
+            }
+
         }
 
+        System.out.println(firstMultipleOf5);
 
+        /* --------------------- TASK 7 ----------------------*/
 
-
-
+        /*
+        * INSTRUCTIONS: 2. Write a Java program using a continue statement to skip even numbers
+        * in a loop that prints numbers from 1 to 20. */
 
 
     }
