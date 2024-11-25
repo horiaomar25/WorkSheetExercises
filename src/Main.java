@@ -155,6 +155,17 @@ public class Main {
         * INSTRUCTIONS: 2. Write a Java program using a continue statement to skip even numbers
         * in a loop that prints numbers from 1 to 20. */
 
+       /* int oddNumbers = 0;
+
+        for (int i = 1; i < 20; i++) {
+            if(i % 2 == 0){
+                continue; // Nothing can come after this because it will skip what is inside this
+            }
+            System.out.print(i + " "); // The print must be placed outside for the next iteration
+        }
+
+        */
+
 
     }
 }
