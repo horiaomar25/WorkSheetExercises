@@ -1,0 +1,68 @@
+Section 1: Types of Control Flow Statements
+
+1.1 Decision-making Statements
+
+1. Define decision making statements and their importance in Java Programming
+
+Decision making statements such as if statements and switch-case statements are important in guiding your programme
+to different block of code. They allow the programme to flow smoothly.
+
+2. List and describe the two types of decision-making statements in Java.
+
+ The two types of decision making statements in Java. There are if and switch-case statements.
+
+ Switch case statements take a element in the switch brackets. The case represents the different values that correspond the element in
+ the switch brackets. If there is a match it will execute the code underneath the case. There is also a break statement so if there is
+ a match it will exit the switch case control flow. This means after every case there needs to be a break statement.
+
+ If there is no match then it will go to default and execute the block of code there. default is added to the end of every switch-case
+ statement.
+
+ An if statement takes a condition. This condition must be equal to either true or false. If true it will execute the block of code below.
+ This may depend if you use the NOT (!) operator.
+
+ Provide an example of an if-else statement and a switch statement
+
+ See the ControlFlowStatements file.
+
+ 1.2 Iterative Constructs
+
+ 1. Explain the purpose of iterative constructs in Java
+
+ A iterative construct allows the programme to repeat a set of instruction a number of times. This comes in form of for , while and do while.
+ There is also for each (for enchanced loop).
+
+ 2. Describe the three types of loops in Java.
+ The 3 types of loops are for i , while, do while loop.
+
+ The for i loop iterates through a element such as an array, String or number. It consists of 3 parts. There is the initializer that control
+ the start of the loop. There is a condition if true the loop will execute and if false the loop will stop.
+ There is a update statement that either increase or decreases. It is useful in holding the index of what it iterating through.
+
+ The while loop consists of one part and that is the condition. While this condition is true the code block with execute.
+
+ The do while loop is similiar to the while loop. However it executes the do part and while the condition is true.
+
+ 3.Provide examples of how break and continue statements can be used in loops.
+
+ In a loop you can have break and continue statement.
+
+ For the break statement, it exits the loop based on the condition of the if statement. For example, if we loop over 10 and implement a
+ if statement when i is equal to 5 to exit the loop when the loop reaches 5.
+
+ For a continue statement, it continues over the iteration. If I use the same example as above and use continue the loop will skip over
+ the number 5 and continue its iteration over 10.
+
+ Section 2 Practical exercises  - All in ControlFlowStatement java file
+
+ Section 3 - BEST PRACTICES
+
+ 1. Explain the importance of code readability and how control flow statements can help improve it.
+
+ Code readability is important because you are working on a codebase with other people so in order to have smooth collaboration
+ they have to understand what your code reads. Control flow statements split your code blocks in manageable parts.
+
+2. List some best practices for writing readable decision - making statements in Java
+
+
+
